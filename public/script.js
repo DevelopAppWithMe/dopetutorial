@@ -4,7 +4,7 @@ let msg = document.getElementById("msg");
 let name = document.getElementById("name");
 let chat = document.getElementById("chat");
 
-let socket = new io("http://localhost:8080/");
+let socket = new io("https://mygreatchatapplication.herokuapp.com/");
 
 socket.on("all_user", (data) => {
   all_user.innerHTML = "";
