@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat app</title>
+  </head>
+  <body>
+    <h1>All online users</h1>
+    <div id="all_users"></div>
+    <h1>Chat section</h1>
+    <div>
+      <input type="text" id="name" placeholder="name" />
+      <input type="text" id="msg" placeholder="message" />
+      <button id="btn">send</button>
+    </div>
+    <div id="chat"></div>
+    <script src="https://cdn.socket.io/3.1.1/socket.io.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
